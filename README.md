@@ -47,29 +47,39 @@ To create a cloud account in Microsoft Azure and to explore its services such as
 •	Use the newly created credentials to sign in.
 •	Change the password on first login.
 •	Now use this admin account for everyday tasks (instead of root).
-
 ## Services Overview in Azure:
 Azure provides 200+ cloud services. In this experiment, we focus on the following key categories:
 ## 1.	Compute Services
-•	Azure Virtual Machines (VMs): On-demand Windows/Linux servers.
+•Azure Kubernetes Service (AKS): Managed Kubernetes for containerized applications.
 
-•	Azure App Services: Hosting web applications without managing infrastructure.
+•Azure Container Instances (ACI): Run containers without managing servers.
 
-•	Azure Functions: Serverless compute that runs event-driven code.
+•Azure Batch: Large-scale parallel and high-performance computing jobs.
+
+•Azure Virtual Desktop: Windows desktop and app virtualization in the cloud.
+
+•Azure Service Fabric: Microservices and container orchestration platform.
 
 ## 2.	IoT Services
-•	Azure IoT Hub: Central messaging hub for secure communication between IoT applications and devices.
+•	Azure Sphere: End-to-end security for IoT devices (hardware, OS, and cloud).
 
-•	Azure IoT Central: Simplified IoT app platform for rapid deployment.
+• Azure Time Series Insights: Fully managed analytics, storage, and visualization for IoT telemetry.
 
-•	Azure Digital Twins: Model real-world environments digitally.
+• Azure Maps: Location-based services and geospatial analytics.
+
+• Device Provisioning Service (DPS): Automated device registration to IoT Hub at scale.
 ## 3.	Security Services
-•	Microsoft Defender for Cloud: Protects cloud resources from threats.
+ • Azure Security Center (integrated with Defender for Cloud): Continuous security assessment and recommendations.
 
-•	Key Vault: Securely stores and manages secrets, keys, and certificates.
+ • Azure DDoS Protection: Mitigates distributed denial-of-service attacks.
 
-•	Sentinel: Cloud-native SIEM (Security Information and Event Management) solution.
- 
+ • Azure Active Directory (Azure AD): Identity and access management for users and applications.
+
+ • Azure Firewall: Managed, cloud-based network security firewall.
+
+ • Azure Bastion: Secure, seamless RDP/SSH access to VMs without exposing public IPs.
+
+ • Azure Information Protection (AIP): Classify and protect sensitive documents and emails.
 ## Snapshot 1: Azure portal login page.
 <img width="1919" height="842" alt="image" src="https://github.com/user-attachments/assets/1d47d559-0c10-440a-bcd1-902f666b7af3" />
 
